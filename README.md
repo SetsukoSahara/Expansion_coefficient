@@ -2,7 +2,7 @@
 
 Setsuko Sahara, Takashi Kodama, and Charles F Stevens
 
-Here We provide two scripts used in our paper to 
+Here We provide two scripts used in our paper to model the differentiation kinetics of 
 
 
 For details please see our paper.
