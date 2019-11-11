@@ -2,60 +2,19 @@
 
 Setsuko Sahara, Takashi Kodama, and Charles F Stevens
 
-Here We provide two scripts used in our paper to model the differentiation kinetics of 
-
+Here We provide two R-scripts used in our paper to model the differentiation kinetics of mouse cortical progenitors.
+"script_common_Tc.R" is to etimate the expansion cofficients by using the total cell cycle length of all progenitors, and "script_different_Tc.R" is a modified script by using cell cycle length unique to an each progenitor type.
 
 For details please see our paper.
+--here we need to cite the paper after the acceptane--
 
-Name（リポジトリ/プロジェクト/OSSなどの名前）
 
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
+#Requirement
+R 3.3.3 or above
 
-"hoge"が何かを簡潔に紹介する
-DEMO
+#Usage
+1. Make sure two csv files (cell_fraction.csv, Tc.csv) and this script file are all in the current working directory,
+In console, run "source("script_common_Tc.R")"
+In console, run "expansion.coefficients()"
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
-Features
 
-"hoge"のセールスポイントや差別化などを説明する
-Requirement
-
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-    huga 3.5.2
-    hogehuga 1.0.2
-
-Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-pip install huga_package
-
-Usage
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-
-Note
-
-注意点などがあれば書く
-Author
-
-作成情報を列挙する
-
-    作成者
-    所属
-    E-mail
-
-License
-
-ライセンスを明示する
-
-"hoge" is under MIT license.
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
