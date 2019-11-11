@@ -1,4 +1,4 @@
-## A common rule governing differentiation kinetics of mouse cortical progenitors
+# A common rule governing differentiation kinetics of mouse cortical progenitors
 
 Setsuko Sahara, Takashi Kodama, and Charles F Stevens
 
@@ -9,10 +9,10 @@ For details please see our paper.
 --here we need to cite the paper after the acceptane--
 
 
-# Requirement
+## Requirement
 R 3.3.3 or above
 
-# Usage
+## Usage
 1. Make sure two csv files (cell_fraction.csv, Tc.csv) and this script file are all in the current working directory,
 In console, run "source("script_common_Tc.R")"
 In console, run "expansion.coefficients()"
